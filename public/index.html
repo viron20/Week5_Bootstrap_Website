@@ -74,6 +74,37 @@
       .carousel-caption p {
         font-size: 1.2rem;
       }
+
+      .section-title {
+        color: #00bfff;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .card {
+        background-color: #1c1c1c;
+        border-radius: 10px;
+      }
+
+      .card-body {
+        color: #eaeaea;
+      }
+
+      footer {
+        background-color: #1a1a1a;
+        color: #f4f4f4;
+      }
+      .card {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #333;
+}
+
     </style>
   </head>
   <body>
@@ -125,10 +156,57 @@
         <span class="carousel-control-next-icon"></span>
       </button>
     </div>
-  </body>
-  <footer class="py-4 mt-5">
-    <div class="container text-center">
-        <p>&copy; 2024 My Website. All Rights Reserved.</p>
+
+    <!-- Introduction Section -->
+    <div class="container py-5">
+      <h2 class="section-title text-center">Welcome to Viron</h2>
+      <p class="lead text-center">We are dedicated to providing top-notch cybersecurity solutions and services. Our goal is to ensure that your digital environment remains secure and resilient to threats.</p>
     </div>
-</footer>
+
+    <!-- Features Section -->
+    <div class="container py-5 bg-dark">
+      <h2 class="section-title text-center text-white">Our Key Features</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card text-white bg-primary">
+            <div class="card-body">
+              <h5 class="card-title">Advanced Threat Protection</h5>
+              <p class="card-text">We utilize cutting-edge technology to detect and mitigate security threats before they affect your operations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-white bg-success">
+            <div class="card-body">
+              <h5 class="card-title">Data Privacy Solutions</h5>
+              <p class="card-text">We offer solutions to ensure your data is protected and remains private, minimizing the risk of leaks and breaches.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-white bg-danger">
+            <div class="card-body">
+              <h5 class="card-title">24/7 Monitoring</h5>
+              <p class="card-text">Our monitoring systems are always on, ensuring round-the-clock surveillance to catch any potential security incident.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="container py-5">
+      <h2 class="section-title text-center">Ready to Secure Your Digital World?</h2>
+      <p class="lead text-center">Contact us today to learn more about our services and how we can protect your online presence.</p>
+      <div class="text-center">
+        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+      </div>
+    </div>
+
+    <footer class="py-4 mt-5">
+      <div class="container text-center">
+        <p>&copy; 2024 Viron's Website. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
